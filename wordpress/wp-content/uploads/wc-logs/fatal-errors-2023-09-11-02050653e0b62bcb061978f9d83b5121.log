@@ -1,0 +1,331 @@
+2023-09-11T06:15:49+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:15:56+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:16:12+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:16:12+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:16:53+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:17:14+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-login.php(12): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:17:16+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-login.php(12): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:18:54+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:19:20+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:19:21+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:20:41+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:20:41+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:20:53+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:21:10+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:21:11+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:21:12+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:21:12+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:21:12+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:21:13+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:21:13+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:21:14+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:21:14+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): carbon_fields_boot_plugin('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php on line 25
+
+2023-09-11T06:53:32+00:00 CRITICAL Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/new-theme/functions.php:16
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): crb_load('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/themes.php(10): require_once('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/themes/new-theme/functions.php on line 16
+
+2023-09-11T06:53:38+00:00 CRITICAL Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/new-theme/functions.php:16
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): crb_load('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/new-theme/functions.php on line 16
+
+2023-09-11T06:53:41+00:00 CRITICAL Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/new-theme/functions.php:16
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): crb_load('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/new-theme/functions.php on line 16
+
+2023-09-11T06:53:45+00:00 CRITICAL Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/new-theme/functions.php:16
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): crb_load('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/themes/new-theme/functions.php on line 16
+
