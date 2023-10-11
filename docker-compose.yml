@@ -4,6 +4,7 @@ services:
     image: wordpress:6.2.2-php8.0-fpm
     volumes:
       - ./wordpress/:/var/www/html
+      # - ./php/:/usr/local/etc/php
     container_name: wc_wordpress
     depends_on:
       - wc_db
@@ -20,15 +21,15 @@ services:
       - 443:443
     depends_on:
       - wordpress
-  certbot:
-    image: certbot/certbot
-    depends_on:
-      - nginx
-    container_name: wc_certbot
-    volumes:
-      - ./etc/letsencrypt:/etc/letsencrypt
-      - ./wordpress/:/var/www/html
-    # command: certonly --webroot --webroot-path=/var/www/html --email aleksander.freelancer@gmail.com --agree-tos --no-eff-email -d legal-services.site
+  # certbot:
+  #   image: certbot/certbot
+  #   depends_on:
+  #     - nginx
+  #   container_name: wc_certbot
+  #   volumes:
+  #     - ./etc/letsencrypt:/etc/letsencrypt
+  #     - ./wordpress/:/var/www/html
+  #   command: certonly --webroot --webroot-path=/var/www/html --email aleksander.freelancer@gmail.com --agree-tos --no-eff-email -d legal-services.site
   wc_db:
     image: mysql:8.0
     environment:
