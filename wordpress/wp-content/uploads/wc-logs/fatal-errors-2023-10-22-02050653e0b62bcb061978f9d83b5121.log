@@ -1,0 +1,348 @@
+2023-10-22T06:25:52+00:00 CRITICAL syntax error, unexpected token ")", expecting "(" in /var/www/html/wp-content/themes/my-theme/routes.php on line 370
+
+2023-10-22T06:25:53+00:00 CRITICAL syntax error, unexpected token ")", expecting "(" in /var/www/html/wp-content/themes/my-theme/routes.php on line 370
+
+2023-10-22T06:27:15+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/themes/my-theme/routes.php:370
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): registerCallback(Object(WP_REST_Request))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/register', Array, NULL)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/register')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 370
+
+2023-10-22T06:28:42+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/themes/my-theme/routes.php:370
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): registerCallback(Object(WP_REST_Request))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/register', Array, NULL)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/register')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 370
+
+2023-10-22T06:29:51+00:00 CRITICAL syntax error, unexpected token "," in /var/www/html/wp-content/themes/my-theme/routes.php on line 374
+
+2023-10-22T06:30:29+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/themes/my-theme/routes.php:374
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): registerCallback(Object(WP_REST_Request))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/register', Array, NULL)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/register')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 374
+
+2023-10-22T06:30:38+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/themes/my-theme/routes.php:374
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): registerCallback(Object(WP_REST_Request))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/register', Array, NULL)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/register')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 374
+
+2023-10-22T06:31:41+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/themes/my-theme/routes.php:375
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): registerCallback(Object(WP_REST_Request))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/register', Array, NULL)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/register')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 375
+
+2023-10-22T06:32:26+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/themes/my-theme/routes.php:375
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): registerCallback(Object(WP_REST_Request))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/register', Array, NULL)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/register')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 375
+
+2023-10-22T06:33:11+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/themes/my-theme/routes.php:375
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): registerCallback(Object(WP_REST_Request))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/register', Array, NULL)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/register')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 375
+
+2023-10-22T06:34:40+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/themes/my-theme/routes.php:375
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): registerCallback(Object(WP_REST_Request))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/register', Array, NULL)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/register')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 375
+
+2023-10-22T06:55:22+00:00 CRITICAL syntax error, unexpected variable "$result" in /var/www/html/wp-content/themes/my-theme/routes.php on line 340
+
+2023-10-22T09:19:04+00:00 CRITICAL syntax error, unexpected variable "$response", expecting ";" in /var/www/html/wp-content/themes/my-theme/routes.php on line 87
+
+2023-10-22T09:35:39+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order::set_shipping_method() in /var/www/html/wp-content/themes/my-theme/routes.php:75
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): create_payment_callback(Object(WP_REST_Request))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/createPa...', Array, NULL)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/createPa...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 75
+
+2023-10-22T09:36:30+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order::set_shipping_method() in /var/www/html/wp-content/themes/my-theme/routes.php:75
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): create_payment_callback(Object(WP_REST_Request))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/createPa...', Array, NULL)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/createPa...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 75
+
+2023-10-22T09:37:41+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order::set_shipping_method() in /var/www/html/wp-content/themes/my-theme/routes.php:75
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): create_payment_callback(Object(WP_REST_Request))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/createPa...', Array, NULL)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/createPa...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 75
+
+2023-10-22T09:38:08+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order::set_shipping_method() in /var/www/html/wp-content/themes/my-theme/routes.php:75
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): create_payment_callback(Object(WP_REST_Request))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/createPa...', Array, NULL)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/createPa...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 75
+
+2023-10-22T09:39:41+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order::set_shipping_method() in /var/www/html/wp-content/themes/my-theme/routes.php:75
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): create_payment_callback(Object(WP_REST_Request))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/createPa...', Array, NULL)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/createPa...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 75
+
+2023-10-22T09:41:18+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order::set_shipping_method() in /var/www/html/wp-content/themes/my-theme/routes.php:75
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): create_payment_callback(Object(WP_REST_Request))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/createPa...', Array, NULL)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/createPa...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 75
+
+2023-10-22T09:47:28+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order::set_shipping_method() in /var/www/html/wp-content/themes/my-theme/routes.php:78
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): create_payment_callback(Object(WP_REST_Request))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/createPa...', Array, NULL)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/createPa...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 78
+
+2023-10-22T10:06:46+00:00 CRITICAL syntax error, unexpected token ":", expecting ")" in /var/www/html/wp-content/themes/my-theme/routes.php on line 97
+
+2023-10-22T10:14:28+00:00 CRITICAL syntax error, unexpected token "{" in /var/www/html/wp-content/themes/my-theme/routes.php on line 324
+
+2023-10-22T10:15:27+00:00 CRITICAL syntax error, unexpected token "return" in /var/www/html/wp-content/themes/my-theme/routes.php on line 330
+
+2023-10-22T10:18:56+00:00 CRITICAL syntax error, unexpected token "}" in /var/www/html/wp-content/themes/my-theme/routes.php on line 333
+
+2023-10-22T10:18:56+00:00 CRITICAL syntax error, unexpected token "}" in /var/www/html/wp-content/themes/my-theme/routes.php on line 333
+
+2023-10-22T10:19:28+00:00 CRITICAL syntax error, unexpected token "}" in /var/www/html/wp-content/themes/my-theme/routes.php on line 337
+
+2023-10-22T10:20:28+00:00 CRITICAL syntax error, unexpected token "}" in /var/www/html/wp-content/themes/my-theme/routes.php on line 337
+
+2023-10-22T10:28:12+00:00 CRITICAL Uncaught InvalidArgumentException: Missing the required parameter $paymentId in /var/www/html/wp-content/themes/my-theme/lib/Client.php:267
+Stack trace:
+#0 /var/www/html/wp-content/themes/my-theme/routes.php(336): YooKassa\Client->getPaymentInfo(NULL)
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): webhookCallback(Object(WP_REST_Request))
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/webhook', Array, NULL)
+#3 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/webhook')
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/lib/Client.php on line 267
+
+2023-10-22T10:30:36+00:00 CRITICAL syntax error, unexpected single-quoted string "orders", expecting "]" in /var/www/html/wp-content/themes/my-theme/routes.php on line 338
+
+2023-10-22T10:30:37+00:00 CRITICAL syntax error, unexpected single-quoted string "orders", expecting "]" in /var/www/html/wp-content/themes/my-theme/routes.php on line 338
+
+2023-10-22T10:30:40+00:00 CRITICAL syntax error, unexpected single-quoted string "orders", expecting "]" in /var/www/html/wp-content/themes/my-theme/routes.php on line 338
+
+2023-10-22T10:38:38+00:00 CRITICAL syntax error, unexpected variable "$currentOrder" in /var/www/html/wp-content/themes/my-theme/routes.php on line 341
+
+2023-10-22T10:38:40+00:00 CRITICAL syntax error, unexpected variable "$currentOrder" in /var/www/html/wp-content/themes/my-theme/routes.php on line 341
+
+2023-10-22T10:38:48+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::save() in /var/www/html/wp-content/themes/my-theme/routes.php:340
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): webhookCallback(Object(WP_REST_Request))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/webhook', Array, NULL)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/webhook')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 340
+
+2023-10-22T13:25:57+00:00 CRITICAL Uncaught YooKassa\Common\Exceptions\InvalidPropertyValueException: Invalid amount value: "0" in /var/www/html/wp-content/themes/my-theme/lib/Model/MonetaryAmount.php:106
+Stack trace:
+#0 /var/www/html/wp-content/themes/my-theme/lib/Common/AbstractObject.php(109): YooKassa\Model\MonetaryAmount->setValue(0)
+#1 /var/www/html/wp-content/themes/my-theme/lib/Common/AbstractObject.php(185): YooKassa\Common\AbstractObject->offsetSet('value', 0)
+#2 /var/www/html/wp-content/themes/my-theme/lib/Common/AbstractPaymentRequestBuilder.php(105): YooKassa\Common\AbstractObject->fromArray(Array)
+#3 /var/www/html/wp-content/themes/my-theme/lib/Common/AbstractRequestBuilder.php(107): YooKassa\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /var/www/html/wp-content/themes/my-theme/lib/Request/Payments/CreatePaymentRequestBuilder.php(343): YooKassa\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /var/www/html/wp-content/themes/my-theme/lib/Client.php(222): YooKassa\Request\Payments\CreatePaymentRequestBuilder->build(Array)
+#6 /var/www/html/wp-content/themes/my-theme/routes.php(57): YooKassa\Client->createPayment(Array, '653522e525b149....')
+#7 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): create_payment_callback(Object(WP_REST_Request))
+#8 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/createPa...', Array, NULL)
+#9 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/createPa...')
+#11 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#12 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#13 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#15 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#16 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#17 /var/www/html/wp-blog-header.php(16): wp()
+#18 /var/www/html/index.php(17): require('/var/www/html/w...')
+#19 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/lib/Model/MonetaryAmount.php on line 106
+

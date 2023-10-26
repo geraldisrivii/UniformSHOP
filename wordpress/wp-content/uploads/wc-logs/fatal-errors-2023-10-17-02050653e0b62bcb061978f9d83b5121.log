@@ -1,0 +1,90 @@
+2023-10-17T10:10:56+00:00 CRITICAL Uncaught Error: Typed static property Session::$instance must not be accessed before initialization in /var/www/html/wp-content/themes/my-theme/Classes/Session.php:17
+Stack trace:
+#0 /var/www/html/wp-content/themes/my-theme/Facades/Session.php(6): Session->__construct()
+#1 /var/www/html/wp-content/themes/my-theme/index.php(9): session()
+#2 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/Classes/Session.php on line 17
+
+2023-10-17T10:12:48+00:00 CRITICAL Uncaught Error: Undefined constant "this" in /var/www/html/wp-content/themes/my-theme/Classes/Session.php:47
+Stack trace:
+#0 /var/www/html/wp-content/themes/my-theme/Facades/Session.php(6): Session->__construct()
+#1 /var/www/html/wp-content/themes/my-theme/index.php(9): session()
+#2 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/Classes/Session.php on line 47
+
+2023-10-17T10:20:38+00:00 CRITICAL syntax error, unexpected token "return" in /var/www/html/wp-content/themes/my-theme/routes.php on line 248
+
+2023-10-17T12:02:13+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/wp-content/themes/my-theme/routes.php:288
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): registerCallback(Object(WP_REST_Request))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/register', Array, NULL)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/register')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 288
+
+2023-10-17T12:02:29+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/wp-content/themes/my-theme/routes.php:288
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): registerCallback(Object(WP_REST_Request))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/register', Array, NULL)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/register')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 288
+
+2023-10-17T12:33:56+00:00 CRITICAL Uncaught Error: Attempt to assign property "customer_data" on null in /var/www/html/wp-content/themes/my-theme/routes.php:288
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): registerCallback(Object(WP_REST_Request))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/register', Array, NULL)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/register')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 288
+
+2023-10-17T12:34:27+00:00 CRITICAL Uncaught Error: Attempt to assign property "customer_data" on null in /var/www/html/wp-content/themes/my-theme/routes.php:288
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): registerCallback(Object(WP_REST_Request))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/register', Array, NULL)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/register')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 288
+

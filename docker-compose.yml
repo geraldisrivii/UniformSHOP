@@ -4,7 +4,7 @@ services:
     image: wordpress:6.2.2-php8.0-fpm
     volumes:
       - ./wordpress/:/var/www/html
-      # - ./php/:/usr/local/etc/php
+      - ./php/php.ini:/usr/local/etc/php/conf.d/conf.ini
     container_name: wc_wordpress
     depends_on:
       - wc_db

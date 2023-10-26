@@ -1,0 +1,72 @@
+2023-10-18T11:51:15+00:00 CRITICAL Uncaught TypeError: Validator::__construct(): Argument #1 ($validationValues) must be of type array, stdClass given, called in /var/www/html/wp-content/themes/my-theme/routes.php on line 281 and defined in /var/www/html/wp-content/themes/my-theme/Classes/Validator.php:7
+Stack trace:
+#0 /var/www/html/wp-content/themes/my-theme/routes.php(281): Validator->__construct(Object(stdClass))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): loginCallback(Object(WP_REST_Request))
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/login', Array, NULL)
+#3 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/login')
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/Classes/Validator.php on line 7
+
+2023-10-18T11:52:51+00:00 CRITICAL Uncaught TypeError: Validator::__construct(): Argument #1 ($validationValues) must be of type array, stdClass given, called in /var/www/html/wp-content/themes/my-theme/routes.php on line 281 and defined in /var/www/html/wp-content/themes/my-theme/Classes/Validator.php:7
+Stack trace:
+#0 /var/www/html/wp-content/themes/my-theme/routes.php(281): Validator->__construct(Object(stdClass))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): loginCallback(Object(WP_REST_Request))
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/login', Array, NULL)
+#3 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/login')
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/Classes/Validator.php on line 7
+
+2023-10-18T11:53:14+00:00 CRITICAL Uncaught TypeError: Validator::__construct(): Argument #1 ($validationValues) must be of type array, stdClass given, called in /var/www/html/wp-content/themes/my-theme/routes.php on line 281 and defined in /var/www/html/wp-content/themes/my-theme/Classes/Validator.php:7
+Stack trace:
+#0 /var/www/html/wp-content/themes/my-theme/routes.php(281): Validator->__construct(Object(stdClass))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): loginCallback(Object(WP_REST_Request))
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/login', Array, NULL)
+#3 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/login')
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/Classes/Validator.php on line 7
+
+2023-10-18T11:53:57+00:00 CRITICAL Uncaught TypeError: Validator::__construct(): Argument #1 ($validationValues) must be of type array, stdClass given, called in /var/www/html/wp-content/themes/my-theme/routes.php on line 281 and defined in /var/www/html/wp-content/themes/my-theme/Classes/Validator.php:7
+Stack trace:
+#0 /var/www/html/wp-content/themes/my-theme/routes.php(281): Validator->__construct(Object(stdClass))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): loginCallback(Object(WP_REST_Request))
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/login', Array, NULL)
+#3 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/login')
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/Classes/Validator.php on line 7
+

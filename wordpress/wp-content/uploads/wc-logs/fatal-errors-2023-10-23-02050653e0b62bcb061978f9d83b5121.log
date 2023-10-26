@@ -1,0 +1,2 @@
+2023-10-23T12:13:04+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in /var/www/html/wp-content/themes/my-theme/restFilters.php on line 28
+

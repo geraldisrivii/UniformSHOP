@@ -1,0 +1,736 @@
+2023-10-13T07:36:44+00:00 CRITICAL syntax error, unexpected token ";" in /var/www/html/wp-content/themes/my-theme/functions.php on line 39
+
+2023-10-13T07:40:58+00:00 CRITICAL syntax error, unexpected token "use" in /var/www/html/wp-content/themes/my-theme/functions.php on line 5
+
+2023-10-13T07:41:03+00:00 CRITICAL syntax error, unexpected token "use" in /var/www/html/wp-content/themes/my-theme/functions.php on line 5
+
+2023-10-13T07:41:51+00:00 CRITICAL Uncaught TypeError: YooKassa\Client\BaseClient::__construct(): Argument #1 ($apiClient) must be of type ?YooKassa\Client\ApiClientInterface, string given, called in /var/www/html/wp-content/themes/my-theme/functions.php on line 40 and defined in /var/www/html/wp-content/themes/my-theme/lib/Client/BaseClient.php:145
+Stack trace:
+#0 /var/www/html/wp-content/themes/my-theme/functions.php(40): YooKassa\Client\BaseClient->__construct('', '')
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): test_post_callback(Object(WP_REST_Request))
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/test', Array, NULL)
+#3 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/test')
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/lib/Client/BaseClient.php on line 145
+
+2023-10-13T07:42:05+00:00 CRITICAL Uncaught TypeError: YooKassa\Client\BaseClient::__construct(): Argument #1 ($apiClient) must be of type ?YooKassa\Client\ApiClientInterface, string given, called in /var/www/html/wp-content/themes/my-theme/functions.php on line 40 and defined in /var/www/html/wp-content/themes/my-theme/lib/Client/BaseClient.php:145
+Stack trace:
+#0 /var/www/html/wp-content/themes/my-theme/functions.php(40): YooKassa\Client\BaseClient->__construct('')
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): test_post_callback(Object(WP_REST_Request))
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/test', Array, NULL)
+#3 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/test')
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/lib/Client/BaseClient.php on line 145
+
+2023-10-13T07:56:46+00:00 CRITICAL Uncaught Error: Call to a member function getPaymentInfo() on null in /var/www/html/wp-content/themes/my-theme/functions.php:36
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/xmlrpc.php(31): require_once('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 36
+
+2023-10-13T07:59:26+00:00 CRITICAL Uncaught Error: Call to a member function getPaymentInfo() on null in /var/www/html/wp-content/themes/my-theme/functions.php:36
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 36
+
+2023-10-13T07:59:53+00:00 CRITICAL Uncaught Error: Call to a member function getPaymentInfo() on null in /var/www/html/wp-content/themes/my-theme/functions.php:36
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 36
+
+2023-10-13T07:59:53+00:00 CRITICAL Uncaught Error: Call to a member function getPaymentInfo() on null in /var/www/html/wp-content/themes/my-theme/functions.php:36
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 36
+
+2023-10-13T08:01:00+00:00 CRITICAL Uncaught Error: Call to a member function getPaymentInfo() on null in /var/www/html/wp-content/themes/my-theme/functions.php:36
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 36
+
+2023-10-13T08:03:24+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/themes/my-theme/scripts.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:12
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/xmlrpc.php(31): require_once('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 12
+
+2023-10-13T08:03:48+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/themes/my-theme/scripts.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:12
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 12
+
+2023-10-13T08:16:28+00:00 CRITICAL Uncaught YooKassa\Common\Exceptions\NotFoundException: Incorrect payment_id. Payment doesn't exist or access denied. Specify the payment ID created in your store.. Error code: not_found. Parameter name: payment_id. in /var/www/html/wp-content/themes/my-theme/lib/Client/BaseClient.php:407
+Stack trace:
+#0 /var/www/html/wp-content/themes/my-theme/lib/Client.php(283): YooKassa\Client\BaseClient->handleError(Object(YooKassa\Common\ResponseObject))
+#1 /var/www/html/wp-content/themes/my-theme/routes.php(95): YooKassa\Client->getPaymentInfo('215d8da0-000f-5...')
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): getPaymentInfoCallback(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/getPayme...', Array, NULL)
+#4 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/getPayme...')
+#6 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#7 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#9 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#10 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#11 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#12 /var/www/html/wp-blog-header.php(16): wp()
+#13 /var/www/html/index.php(17): require('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/lib/Client/BaseClient.php on line 407
+
+2023-10-13T08:17:06+00:00 CRITICAL Uncaught YooKassa\Common\Exceptions\NotFoundException: Incorrect payment_id. Payment doesn't exist or access denied. Specify the payment ID created in your store.. Error code: not_found. Parameter name: payment_id. in /var/www/html/wp-content/themes/my-theme/lib/Client/BaseClient.php:407
+Stack trace:
+#0 /var/www/html/wp-content/themes/my-theme/lib/Client.php(283): YooKassa\Client\BaseClient->handleError(Object(YooKassa\Common\ResponseObject))
+#1 /var/www/html/wp-content/themes/my-theme/routes.php(95): YooKassa\Client->getPaymentInfo('215d8da0-000f-5...')
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): getPaymentInfoCallback(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/getPayme...', Array, NULL)
+#4 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/getPayme...')
+#6 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#7 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#9 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#10 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#11 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#12 /var/www/html/wp-blog-header.php(16): wp()
+#13 /var/www/html/index.php(17): require('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/lib/Client/BaseClient.php on line 407
+
+2023-10-13T08:17:49+00:00 CRITICAL Uncaught InvalidArgumentException: Invalid paymentId value in /var/www/html/wp-content/themes/my-theme/lib/Client.php:271
+Stack trace:
+#0 /var/www/html/wp-content/themes/my-theme/routes.php(95): YooKassa\Client->getPaymentInfo('"2cbb10b6-000f-...')
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): getPaymentInfoCallback(Object(WP_REST_Request))
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/getPayme...', Array, NULL)
+#3 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/getPayme...')
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/lib/Client.php on line 271
+
+2023-10-13T12:07:51+00:00 CRITICAL Uncaught ArgumentCountError: get_headers() expects at least 1 argument, 0 given in /var/www/html/wp-content/themes/my-theme/routes.php:180
+Stack trace:
+#0 /var/www/html/wp-content/themes/my-theme/routes.php(180): get_headers()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): testCallback(Object(WP_REST_Request))
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/test', Array, NULL)
+#3 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/test')
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 180
+
+2023-10-13T12:07:58+00:00 CRITICAL Uncaught ArgumentCountError: get_headers() expects at least 1 argument, 0 given in /var/www/html/wp-content/themes/my-theme/routes.php:180
+Stack trace:
+#0 /var/www/html/wp-content/themes/my-theme/routes.php(180): get_headers()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): testCallback(Object(WP_REST_Request))
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/test', Array, NULL)
+#3 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/test')
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 180
+
+2023-10-13T12:14:32+00:00 CRITICAL syntax error, unexpected token "return" in /var/www/html/wp-content/themes/my-theme/routes.php on line 182
+
+2023-10-13T12:20:23+00:00 CRITICAL syntax error, unexpected token ";" in /var/www/html/wp-content/themes/my-theme/routes.php on line 178
+
+2023-10-13T12:20:23+00:00 CRITICAL syntax error, unexpected token ";" in /var/www/html/wp-content/themes/my-theme/routes.php on line 178
+
+2023-10-13T12:20:23+00:00 CRITICAL syntax error, unexpected token ";" in /var/www/html/wp-content/themes/my-theme/routes.php on line 178
+
+2023-10-13T12:20:23+00:00 CRITICAL syntax error, unexpected token ";" in /var/www/html/wp-content/themes/my-theme/routes.php on line 178
+
+2023-10-13T12:20:23+00:00 CRITICAL syntax error, unexpected token ";" in /var/www/html/wp-content/themes/my-theme/routes.php on line 178
+
+2023-10-13T12:20:23+00:00 CRITICAL syntax error, unexpected token ";" in /var/www/html/wp-content/themes/my-theme/routes.php on line 178
+
+2023-10-13T12:20:23+00:00 CRITICAL syntax error, unexpected token ";" in /var/www/html/wp-content/themes/my-theme/routes.php on line 178
+
+2023-10-13T12:20:24+00:00 CRITICAL syntax error, unexpected token ";" in /var/www/html/wp-content/themes/my-theme/routes.php on line 178
+
+2023-10-13T12:20:24+00:00 CRITICAL syntax error, unexpected token ";" in /var/www/html/wp-content/themes/my-theme/routes.php on line 178
+
+2023-10-13T12:41:16+00:00 CRITICAL Uncaught ValueError: setcookie(): option "$httponly" is invalid in /var/www/html/wp-content/themes/my-theme/routes.php:187
+Stack trace:
+#0 /var/www/html/wp-content/themes/my-theme/routes.php(187): setcookie('TestCookie', 'The Cookie Valu...', Array)
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): testCallback(Object(WP_REST_Request))
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/test', Array, NULL)
+#3 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/test')
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 187
+
+2023-10-13T12:41:22+00:00 CRITICAL Uncaught ValueError: setcookie(): option "$httponly" is invalid in /var/www/html/wp-content/themes/my-theme/routes.php:187
+Stack trace:
+#0 /var/www/html/wp-content/themes/my-theme/routes.php(187): setcookie('TestCookie', 'The Cookie Valu...', Array)
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1187): testCallback(Object(WP_REST_Request))
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1034): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/test', Array, NULL)
+#3 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(426): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/test')
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 187
+
+2023-10-13T13:21:24+00:00 CRITICAL syntax error, unexpected token ")", expecting variable or "{" or "$" in /var/www/html/wp-content/themes/my-theme/routes.php on line 190
+
+2023-10-13T13:36:12+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:24
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/test')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 24
+
+2023-10-13T13:36:12+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:24
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/pages/15...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 24
+
+2023-10-13T13:36:12+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:24
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/settings')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 24
+
+2023-10-13T13:36:42+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/pages/15...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 25
+
+2023-10-13T13:36:42+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/settings')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 25
+
+2023-10-13T13:36:42+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:25
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/test')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 25
+
+2023-10-13T13:37:13+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:26
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/settings')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 26
+
+2023-10-13T13:37:13+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:26
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/pages/15...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 26
+
+2023-10-13T13:37:13+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:26
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/test')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 26
+
+2023-10-13T13:37:39+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:26
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/test')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 26
+
+2023-10-13T13:37:39+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:26
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/pages/15...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 26
+
+2023-10-13T13:37:39+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:26
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/settings')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 26
+
+2023-10-13T13:37:56+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:26
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/test')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 26
+
+2023-10-13T13:37:56+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:26
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/pages/15...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 26
+
+2023-10-13T13:37:56+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:26
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/settings')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 26
+
+2023-10-13T13:38:49+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:27
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/test')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 27
+
+2023-10-13T13:38:49+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:27
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/settings')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 27
+
+2023-10-13T13:38:49+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:27
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/pages/15...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 27
+
+2023-10-13T13:39:28+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:27
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/settings')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 27
+
+2023-10-13T13:39:28+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:27
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/pages/15...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 27
+
+2023-10-13T13:39:28+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:27
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/test')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 27
+
+2023-10-13T13:39:55+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:24
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): custom_rest_cors_headers(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/settings')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 24
+
+2023-10-13T13:41:10+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:38
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): {closure}(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/pages/15...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 38
+
+2023-10-13T13:41:10+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:38
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): {closure}(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/test')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 38
+
+2023-10-13T13:41:10+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:38
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): {closure}(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/settings')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 38
+
+2023-10-13T13:41:14+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:38
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): {closure}(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/settings')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 38
+
+2023-10-13T13:41:14+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:38
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): {closure}(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/pages/15...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 38
+
+2023-10-13T13:41:14+00:00 CRITICAL Uncaught Error: Attempt to modify property "headers" on bool in /var/www/html/wp-content/themes/my-theme/other.php:38
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): {closure}(false)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(478): apply_filters('rest_pre_serve_...', false, Object(WP_REST_Response), Object(WP_REST_Request), Object(WP_REST_Server))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/test')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/other.php on line 38
+
