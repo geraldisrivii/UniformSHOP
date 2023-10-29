@@ -514,12 +514,14 @@ function registerCallback(WP_REST_Request $request)
 	$userRequest = [
 		'login' => $request['login'],
 		'password' => $request['password'],
+		'email' => $request['email']
 	];
 
 	$validator = new Validator($userRequest);
 	$validator->add_rules([
 		'login' => '/[A-Za-z0-9]{6,15}/',
 		'password' => '/[A-Za-z0-9]{6,20}[0-9]+/',
+		'email' => '/[A-Za-z0-9_]+@[A-Za-z]+.[A-Za-z]+/'
 	]);
 	$validData = $validator->run();
 
@@ -540,7 +542,7 @@ function registerCallback(WP_REST_Request $request)
 
 		$email = "user_{$time}@example.com";
 	
-		$user_id = wp_create_user($userRequest['login'], $userRequest['password'], $email);
+		$user_id = wp_create_user($userRequest['login'], $userRequest['password'], $userRequest['email']);
 
 		if (is_wp_error($user_id)) {
 			$response->set_status( 400 );
@@ -553,7 +555,7 @@ function registerCallback(WP_REST_Request $request)
 		
 
 		update_metadata( 'user', $user_id, 'isEmailVerified', false );
-		
+
 		$userWP = new WP_User($user_id);
 		$userWP->set_role('customer');
 
