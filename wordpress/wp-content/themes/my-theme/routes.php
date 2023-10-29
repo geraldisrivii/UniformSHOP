@@ -2,14 +2,20 @@
 
 require_once __DIR__ . '/lib/autoload.php'; 
 
+require_once __DIR__ . '/vendor/autoload.php'; 
+
 require_once __DIR__ . '/Classes/Session.php';
 
 require_once __DIR__ . '/Classes/Validator.php';
+
 
 require_once(ABSPATH . 'wp-load.php');
 
 
 use YooKassa\Client;
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
 
 add_action('rest_api_init', function () {
 
@@ -320,7 +326,63 @@ add_action('rest_api_init', function () {
 			return isset($_COOKIE['auth']) ? wp_check_password('someone', $_COOKIE['auth']) : false;
 		},
 	]);
+
+	register_rest_route('wp/v2', '/sendMail', [
+		'methods' => 'POST',
+		'callback' => 'sendMailCallback',
+		'args' => [],
+		'permission_callback' => function ($request) {
+			return true;
+		},
+	]);
 });
+
+function sendMailCallback(){
+
+	global $settings;
+
+	$mail_settings = $settings['mail_settings_dev'];
+
+	$response = new WP_REST_Response();
+
+	$to = "aleksander.freelancer@gmail.com"; // Адрес получателя
+
+	$mail = new PHPMailer(true);
+
+	try {
+		$mail->SMTPDebug = 0;                      //Enable verbose debug output
+		$mail->isSMTP();                                            //Send using SMTP
+		$mail->Host       = $mail_settings['host'];                     //Set the SMTP server to send through
+		$mail->SMTPAuth   = $mail_settings['auth'];                                   //Enable SMTP authentication
+		$mail->Username   = $mail_settings['username'];                     //SMTP username
+		$mail->Password   = $mail_settings['password'];                               //SMTP password
+		$mail->SMTPSecure = $mail_settings['secure'];            //Enable implicit TLS encryption
+		$mail->Port = $mail_settings['port'];             
+		
+		$mail->addAddress($to);
+		
+
+		$mail->isHTML($mail_settings['is_html']);                                  //Set email format to HTML
+		$mail->Subject = 'Here is the subject';
+		$mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+		$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+	
+		$mail->send();
+		
+	} catch (PHPMailer\PHPMailer\Exception $th) {
+		return $response->data = [
+			'status' => false,
+			'message' => "Message could not be sent. Mailer Error: {$mail->ErrorInfo}"
+		];
+	}
+
+	return $response->data = [
+		'status' => true,
+		'settings' => $mail_settings
+	];
+}
+
+
 
 function signOutCallback(){
 	$result = session()->remove('user');
@@ -488,6 +550,9 @@ function registerCallback(WP_REST_Request $request)
 				'message' => isset($user_id->errors) ? $user_id->errors : 'something went wrong',
 			];
 		}
+		
+
+		update_metadata( 'user', $user_id, 'isEmailVerified', false );
 		
 		$userWP = new WP_User($user_id);
 		$userWP->set_role('customer');

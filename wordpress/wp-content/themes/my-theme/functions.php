@@ -3,6 +3,8 @@ require_once __DIR__ . '/lib/autoload.php';
 require_once __DIR__ . '/Facades/Session.php';
 use YooKassa\Client;
 
+$settings = require_once __DIR__ . '/settings.php';
+
 
 function init(){
 }
