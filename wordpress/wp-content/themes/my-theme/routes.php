@@ -55,7 +55,7 @@ function create_payment_callback(WP_REST_Request $request)
             ),
             'confirmation' => array(
 				'type' => 'redirect',
-                'return_url' => 'https://legal-services.site/katalog',
+                'return_url' => 'http:localhost:8080/katalog',
             ),
             'capture' => true,
             'description' => 'Заказ №1',
@@ -332,10 +332,107 @@ add_action('rest_api_init', function () {
 		'callback' => 'sendMailCallback',
 		'args' => [],
 		'permission_callback' => function ($request) {
-			return true;
+			return isset($_COOKIE['auth']) ? wp_check_password('someone', $_COOKIE['auth']) : false;
+		},
+	]);
+
+	register_rest_route('wp/v2', '/postCode', [
+		'methods' => 'POST',
+		'callback' => 'postCodeCallback',
+		'args' => [],
+		'permission_callback' => function ($request) {
+			return isset($_COOKIE['auth']) ? wp_check_password('someone', $_COOKIE['auth']) : false;
+		},
+	]);
+
+	register_rest_route('wp/v2', '/checkLogin', [
+		'methods' => 'POST',
+		'callback' => 'checkLoginCallback',
+		'args' => [],
+		'permission_callback' => function ($request) {
+			return isset($_COOKIE['auth']) ? wp_check_password('someone', $_COOKIE['auth']) : false;
+		},
+	]);
+	register_rest_route('wp/v2', '/checkEmail', [
+		'methods' => 'POST',
+		'callback' => 'checkEmailCallback',
+		'args' => [],
+		'permission_callback' => function ($request) {
+			return isset($_COOKIE['auth']) ? wp_check_password('someone', $_COOKIE['auth']) : false;
 		},
 	]);
 });
+
+
+function checkEmailCallback(WP_REST_Request $request){
+	$response = new WP_REST_Response();
+
+	$result = get_user_by( 'email', $request['email'] );
+
+	if($result){
+		return $response->data = [
+			'status' => false,
+			'message' => 'This email already used'
+		];
+	}
+
+	return $response->data = [
+		'status' => true,
+		'message' => 'This email may be used'
+	];
+
+}
+
+function checkLoginCallback(WP_REST_Request $request){
+
+	$response = new WP_REST_Response();
+
+	$result = get_user_by( 'login', $request['login'] );
+
+	if($result){
+		return $response->data = [
+			'status' => false,
+			'message' => 'This login already used'
+		];
+	}
+
+	return $response->data = [
+		'status' => true,
+		'message' => 'This login may be used'
+	];
+
+}
+
+function postCodeCallback(WP_REST_Request $request){
+	$response = new WP_REST_Response();
+
+	$code = session()->get('email_code');
+
+	$requestedCode = $request['code'];
+
+	if(!$code){
+		return $response->data = [
+			'status' => false,
+			'message' => 'email code isnt have in session'
+		];
+	}
+	
+	if($requestedCode != $code){
+		return $response->data = [
+			'status' => false,
+			'message' => 'code isnt match to code in session'
+		];
+	}
+
+	update_metadata( 'user', session()->get('user')['ID'], 'isEmailVerified', true );
+
+	session()->remove('email_code');
+
+	return $response->data = [
+		'status' => true,
+	];
+}
+
 
 function sendMailCallback(){
 
@@ -345,7 +442,15 @@ function sendMailCallback(){
 
 	$response = new WP_REST_Response();
 
-	$to = "aleksander.freelancer@gmail.com"; // Адрес получателя
+	$user = session()->get('user');
+	
+	$to = $user['data']['user_email']; 
+
+	// $to = "aleksander.freelancer@gmail.com";
+
+	$code = random_int(1000, 9999);
+
+	$result = session()->add('email_code', $code );
 
 	$mail = new PHPMailer(true);
 
@@ -363,9 +468,9 @@ function sendMailCallback(){
 		
 
 		$mail->isHTML($mail_settings['is_html']);                                  //Set email format to HTML
-		$mail->Subject = 'Here is the subject';
-		$mail->Body    = 'This is the HTML message body <b>in bold!</b>';
-		$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+		$mail->Subject = 'Код подтверждения';
+		$mail->Body    = "Скопируйте и вставьте в форму подтвержения на сайте данный код: <b>{$code}</b>";
+		$mail->AltBody = "Скопируйте и вставьте в форму подтвержения на сайте данный код: {$code}";
 	
 		$mail->send();
 		
@@ -378,6 +483,8 @@ function sendMailCallback(){
 
 	return $response->data = [
 		'status' => true,
+		'result' => $result,
+		'user' => $user,
 		'settings' => $mail_settings
 	];
 }
@@ -441,6 +548,12 @@ function getUserDataCallback(WP_REST_Request $request)
 
 	$user = session()->get('user');
 
+	if(!$user){
+		return $response->data = false;
+	}
+
+	$user['data']['is_email_verified'] = (boolean)get_metadata( 'user', $user['ID'], 'isEmailVerified', true);
+
 	$response->data = $user;
 	
 	return $response;
@@ -492,6 +605,7 @@ function loginCallback(WP_REST_Request $request)
 	}
 	if(wp_check_password($userRequest->password, $userWP->user_pass, $userWP->ID)){
 		$result = session()->add('user', $userWP);
+		$userWP->is_email_verified = get_metadata( 'user', $userWP->ID, 'isEmailVerified', true );
 		return $response->data = [
 			'status' => true,
 			'message' => 'Succesfuly logged in',
@@ -521,7 +635,7 @@ function registerCallback(WP_REST_Request $request)
 	$validator->add_rules([
 		'login' => '/[A-Za-z0-9]{6,15}/',
 		'password' => '/[A-Za-z0-9]{6,20}[0-9]+/',
-		'email' => '/[A-Za-z0-9_]+@[A-Za-z]+.[A-Za-z]+/'
+		'email' => '/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/'
 	]);
 	$validData = $validator->run();
 
