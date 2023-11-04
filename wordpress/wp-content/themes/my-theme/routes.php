@@ -1,16 +1,56 @@
 <?php 
 
-require_once get_home_path() . '/vendor/autoload.php'; 
-
-require_once(ABSPATH . 'wp-load.php');
-
-
 use YooKassa\Client;
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 
 use App\Classes\Validator;
+use App\Classes\Router;
+
+
+add_action('rest_api_init', function () {
+
+	$namespace = 'wp/v2';
+
+	Router::get('/test', 'TestController@someMethod');
+
+	// var_dump($result);
+
+	// маршрут
+	$route1 = '/test2';
+
+	$route_params1 = [
+		'methods' => 'GET',
+		'callback' => function ($request) {
+
+			// var_dump($result);
+		},
+		'args' => [
+		],
+		'permission_callback' => function ($request) {
+			return true;
+		},
+	];
+
+	register_rest_route($namespace, $route1, $route_params1);
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 add_action('rest_api_init', function () {
 
@@ -26,29 +66,6 @@ add_action('rest_api_init', function () {
 		],
 		'permission_callback' => function ($request) {
 			return isset($_COOKIE['auth']) ? wp_check_password('someone', $_COOKIE['auth']) : false;
-		},
-	];
-
-	register_rest_route($namespace, $route, $route_params);
-
-});
-
-add_action('rest_api_init', function () {
-
-	$namespace = 'wp/v2';
-
-	// маршрут
-	$route = '/test';
-
-	$route_params = [
-		'methods' => 'GET',
-		'callback' => function ($request){
-			
-		},
-		'args' => [
-		],
-		'permission_callback' => function ($request) {
-			return true;
 		},
 	];
 
