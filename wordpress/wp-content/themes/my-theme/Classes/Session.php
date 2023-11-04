@@ -1,6 +1,5 @@
 <?php
 
-
 class Session{
     private static string $tableName = 'wp_sessions';
 

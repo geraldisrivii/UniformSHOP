@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/lib/autoload.php'; 
 
-require_once __DIR__ . '/vendor/autoload.php'; 
+require_once get_home_path() . '/vendor/autoload.php'; 
 
 require_once __DIR__ . '/Classes/Session.php';
 

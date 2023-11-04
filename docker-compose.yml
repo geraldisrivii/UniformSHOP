@@ -1,7 +1,9 @@
 version: "3"
 services:
   wordpress:
-    image: wordpress:6.2.2-php8.0-fpm
+    build:
+      context: .
+      dockerfile: Dockerfile  
     volumes:
       - ./wordpress/:/var/www/html
       - ./php/php.ini:/usr/local/etc/php/conf.d/conf.ini

@@ -1,12 +1,17 @@
 <?php
 require_once __DIR__ . '/lib/autoload.php'; 
+
 require_once __DIR__ . '/Facades/Session.php';
+
+
 use YooKassa\Client;
 
 $settings = require_once __DIR__ . '/settings.php';
 
+require_once ABSPATH . 'wp-admin/includes/file.php';
 
 function init(){
+
 }
 
 add_action( 'init', 'init');
