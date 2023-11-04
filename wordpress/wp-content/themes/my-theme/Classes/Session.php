@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Classes;
+
 class Session{
     private static string $tableName = 'wp_sessions';
 

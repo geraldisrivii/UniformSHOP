@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Classes;
+
 class Validator{
     protected array $validationValues = [];
     protected array $validationRules = [];

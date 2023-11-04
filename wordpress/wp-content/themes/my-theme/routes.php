@@ -1,13 +1,6 @@
 <?php 
 
-require_once __DIR__ . '/lib/autoload.php'; 
-
 require_once get_home_path() . '/vendor/autoload.php'; 
-
-require_once __DIR__ . '/Classes/Session.php';
-
-require_once __DIR__ . '/Classes/Validator.php';
-
 
 require_once(ABSPATH . 'wp-load.php');
 
@@ -16,6 +9,8 @@ use YooKassa\Client;
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
+
+use App\Classes\Validator;
 
 add_action('rest_api_init', function () {
 
@@ -27,7 +22,8 @@ add_action('rest_api_init', function () {
 	$route_params = [
 		'methods' => 'POST',
 		'callback' => 'create_payment_callback',
-		'args' => [],
+		'args' => [
+		],
 		'permission_callback' => function ($request) {
 			return isset($_COOKIE['auth']) ? wp_check_password('someone', $_COOKIE['auth']) : false;
 		},
@@ -42,26 +38,27 @@ function create_payment_callback(WP_REST_Request $request)
 {
 	$response = new WP_REST_Response();
 
+	
 	$client = new Client();
-
 	$client->setAuth('321322', 'test_6u50VVu79MGLmELpPGMn3BySLTUO3EKTKzze6xxv82Q');
 	
 	
 	$payment = $client->createPayment(
 		array(
 			'amount' => array(
-                'value' => $request['amount'],
-                'currency' => 'RUB',
-            ),
-            'confirmation' => array(
+				'value' => $request['amount'],
+				'currency' => 'RUB',
+			),
+			'confirmation' => array(
 				'type' => 'redirect',
-                'return_url' => 'http:localhost:8080/katalog',
-            ),
-            'capture' => true,
-            'description' => 'Заказ №1',
-        ),
-        uniqid('', true)
-    );
+				'return_url' => 'http://localhost:8080/katalog',
+			),
+			'capture' => true,
+			'description' => 'Заказ №1',
+		),
+		uniqid('', true)
+	);
+
 	
 	if(session()->get('user') == false){
 		return $response->data = [
