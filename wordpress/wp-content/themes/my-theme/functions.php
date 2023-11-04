@@ -9,15 +9,7 @@ require_once ABSPATH . 'wp-admin/includes/file.php';
 
 require_once __DIR__ . '/routes.php';
 
-
-require_once __DIR__ . '/menus.php';
-
-require_once __DIR__ . '/restFilters.php';
-
 require_once __DIR__ . '/CPT.php';
-
-require_once __DIR__ . '/other.php';
-
 
 add_action('wp_enqueue_scripts', 'wp_enqueue_scripts_func');
 

@@ -33,6 +33,29 @@ add_action('rest_api_init', function () {
 
 });
 
+add_action('rest_api_init', function () {
+
+	$namespace = 'wp/v2';
+
+	// маршрут
+	$route = '/test';
+
+	$route_params = [
+		'methods' => 'GET',
+		'callback' => function ($request){
+			
+		},
+		'args' => [
+		],
+		'permission_callback' => function ($request) {
+			return true;
+		},
+	];
+
+	register_rest_route($namespace, $route, $route_params);
+
+});
+
 
 function create_payment_callback(WP_REST_Request $request)
 {

@@ -1,5 +1,14 @@
 <?php
 
+
+/*
+Plugin Name: WOO Reviews images and title
+Description: Allow using images and title in woo reviews. 
+Version: 1.0
+Author: Alexander Malstev
+*/
+
+
 add_action('init', 'add_custom_fields_to_wc_comment');
 
 function add_custom_fields_to_wc_comment()
@@ -23,7 +32,7 @@ function update_custom_field_after_insert_product_review($comment, $request)
 	
 	update_metadata('comment', $comment->comment_ID, 'title', $title);
 
-	if(!isset($_FILES['images']) || empty($_FILES['images'])){
+	if(empty($_FILES['images'])){
 		return;
 	}
 
@@ -60,11 +69,6 @@ function update_custom_field_after_insert_product_review($comment, $request)
 		update_metadata('comment', $comment->comment_ID, $meta_key, json_encode($returnedData));
 		return;
 	}
-
-	update_metadata('comment', $comment->comment_ID, $meta_key, json_encode([
-		'images' => $images,
-		'results' => $results
-	]));
 }
 add_action('woocommerce_rest_insert_product_review', 'update_custom_field_after_insert_product_review', 10, 3);
 
