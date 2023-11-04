@@ -44,7 +44,6 @@ class Router{
         $result = register_rest_route( $namespace, $routeName, [
             'methods' => $routeMethod,
             'callback' => [$instance, $method],
-            // 'callback' => "{$instancePath}->{$method}",
             'args' => [],
             'permission_callback' => function ($request) {
                 return $midlleWare == null ? true : $midlleWare;
@@ -53,25 +52,4 @@ class Router{
 
         return $result;
     }
-
-    // public static function run(string $routeName){
-    //     $currentRoute = null;
-    //     foreach (Router::$routes as $key => $route) {
-    //         if($route['name'] == $routeName){
-    //             $currentRoute = $route;
-    //             break;
-    //         }
-    //     }
-    //     if($currentRoute == null){
-    //         print_r('anything routes with key isnt enabled');
-    //         return; 
-    //     }
-    //     $controller = substr($currentRoute['callback'], 0, strpos($currentRoute['callback'], '@'));
-    //     $method = substr($currentRoute['callback'], strpos($currentRoute['callback'], '@') + 1);
-
-    //     $controllerPath = Router::$path . $controller;
-    //     $instance = new $controllerPath();
-
-    //     $instance->$method();
-    // }
 } 
