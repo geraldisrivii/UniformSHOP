@@ -1,16 +1,17 @@
 <?php 
 
-add_action('wp_enqueue_scripts', 'wp_enqueue_scripts_func');
+/*
+Plugin Name: Deregister WOO scripts plugin
+Description: Deregister WOO scripts
+Version: 1.0
+Author: Alexander Malstev
+*/
 
-function wp_enqueue_scripts_func()
+
+add_action('wp_enqueue_scripts', 'wp_dereg_scripts_func');
+
+function wp_dereg_scripts_func()
 {
-	// wp_enqueue_style('main', get_stylesheet_uri());
-	// wp_enqueue_script('jivo-setup', get_template_directory_uri() . '/assets/js/jivoSetup.js', [], null, false);
-	wp_enqueue_script('chunk-vendors', get_template_directory_uri() . '/assets/js/chunk-vendors.js', [], null, true);
-	wp_enqueue_script('main', get_template_directory_uri() . '/assets/js/main.js', [], null, true);
-
-	// wp_enqueue_style( 'style', get_stylesheet_uri(  ) );
-
 	// Deregister stylesheets
 	wp_deregister_style('wc-blocks-style');
 	wp_deregister_style('wc-blocks-style-active-filters');
