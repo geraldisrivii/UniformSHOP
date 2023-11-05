@@ -4,9 +4,9 @@ namespace App\Classes;
 
 class Router{
 
-    // private static array $routes = [];
-
     private static string $path = 'App\\Controllers\\';
+
+    private static string $pathMiddleware = 'App\\Middlewares\\';
 
     private static string $namespace = 'wp/v2';
 
@@ -38,16 +38,25 @@ class Router{
         $controllerPath = Router::$path . $controller;
         
         $instance = new $controllerPath();
+
+        $permissionCallback = $midlleWare;
+        $pathMiddleware = Router::$pathMiddleware . $midlleWare;
+        if(class_exists($pathMiddleware)){
+            $instanceMidlleWare = new $pathMiddleware();
+            $permissionCallback = [$instanceMidlleWare, 'prepare'];
+        }
+        
         
         $namespace = Router::$namespace;
         $instancePath = $instance::class;
+
         $result = register_rest_route( $namespace, $routeName, [
             'methods' => $routeMethod,
             'callback' => [$instance, $method],
             'args' => [],
-            'permission_callback' => function ($request) {
-                return $midlleWare == null ? true : $midlleWare;
-            },
+            'permission_callback' => $permissionCallback ?  $permissionCallback : function () {
+                return true;
+            }
         ] );
 
         return $result;

@@ -85,6 +85,49 @@ ini_set('display_errors', 1);
 
 define('WP_MEMORY_LIMIT', '160M');
 
+
+
+// for mail
+
+define('MAIL_SETTINGS', [
+	'mail_settings_dev' => [
+        'host' => 'smtp.gmail.com',
+        'auth' => true,
+        'port' => 465,
+        'username' => 'sasamaltsev981@gmail.com',
+        'password' => 'rzdd nftp wqal vcxh',
+        'secure' => 'ssl',
+        'charset' => 'UTF-8',
+        'from_email' => 'sasamaltsev981@gmail.com',
+        'from_name' => 'Alexander Maltsev',
+        'is_html' => true
+    ], 
+	'mail_settings_prod' => [
+        'host' => 'smtp.gmail.com',
+        'auth' => true,
+        'port' => 465,
+        'username' => 'sasamaltsev981@gmail.com',
+        'password' => 'rzdd nftp wqal vcxh',
+        'secure' => 'ssl',
+        'charset' => 'UTF-8',
+        'from_email' => 'sasamaltsev981@gmail.com',
+        'from_name' => 'Alexander Maltsev',
+        'is_html' => true
+    ], 
+]);
+
+// for admin panel
+define('GENERALY_SETTINGS_ID', 154);
+
+
+// For yookassa
+
+define('SHOP_ID', '321322');
+define('SHOP_KEY', 'test_6u50VVu79MGLmELpPGMn3BySLTUO3EKTKzze6xxv82Q');
+define('RETURNED_URL', 'http://localhost:8080/katalog');
+
+
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */

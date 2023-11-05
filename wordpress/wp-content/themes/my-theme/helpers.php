@@ -1,5 +1,4 @@
 <?php
-// require_once get_template_directory(  ) . '/Classes/Session.php';
 
 use App\Classes\Session;
 

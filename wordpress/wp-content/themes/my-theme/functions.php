@@ -5,10 +5,7 @@ require_once ABSPATH . 'wp-admin/includes/file.php';
 require_once get_home_path() . '/vendor/autoload.php'; 
 
 
-require_once __DIR__ . '/Facades/Session.php';
-
-
-$settings = require_once __DIR__ . '/settings.php';
+require_once __DIR__ . '/helpers.php';
 
 
 require_once __DIR__ . '/routes.php';
@@ -21,14 +18,7 @@ add_action('init', 'init_func');
 use App\Controllers\TestController;
 
 function init_func(){
-    // $method = 'someMethod';
-    // $instance = new TestController();
-    // $instance = $instance::class;
-    // $str = "$instance->$method";
-    // [$class, $method] = explode("->", $str);
-
-    // $instance = new $class();
-    // print_r($instance->$method());
+    
 }
 
 function wp_enqueue_scripts_func(){
