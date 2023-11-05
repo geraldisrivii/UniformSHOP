@@ -2,6 +2,7 @@
 
 require_once(ABSPATH . 'wp-load.php');
 require_once ABSPATH . 'wp-admin/includes/file.php';
+
 require_once get_home_path() . '/vendor/autoload.php'; 
 
 
