@@ -50,7 +50,7 @@ class ComposerStaticInit6f49da5f70d7f40ada033c055afcbf3e
         ),
         'App\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/wp-content/themes/my-theme',
+            0 => __DIR__ . '/../..' . '/',
         ),
     );
 

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d4d433a8b5312db31c3d41a91c2b2dc",
+    "content-hash": "59ea12f82e170b158d3df7d955674ded",
     "packages": [
         {
             "name": "php-ds/php-ds",

@@ -2306,3 +2306,881 @@ Stack trace:
 #12 {main}
   thrown in /var/www/html/wp-content/themes/my-theme/Controllers/UserController.php on line 157
 
+2023-11-05T11:12:22+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html//vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:22+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html//vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:22+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:24+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html//vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:24+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html//vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:24+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html//vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:40+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:40+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:40+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:42+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:42+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:42+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:43+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:43+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:43+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:44+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:44+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:44+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:45+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:45+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:45+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:46+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:46+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:12:46+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:14:06+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:14:06+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:14:06+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:16:26+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:16:26+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:16:26+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:16:28+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:16:28+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:16:28+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:16:29+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:16:29+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:16:29+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:16:49+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-login.php(12): require('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:16:51+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-login.php(12): require('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:16:57+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:16:57+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:16:57+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:16:59+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:16:59+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:16:59+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:17:00+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:17:00+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:17:00+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:19:25+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:19:51+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:19:58+00:00 CRITICAL Uncaught Error: Class "App\Classes\Router" not found in /var/www/html/wp-content/themes/my-theme/routes.php:8
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 8
+
+2023-11-05T11:19:58+00:00 CRITICAL Uncaught Error: Class "App\Classes\Router" not found in /var/www/html/wp-content/themes/my-theme/routes.php:8
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 8
+
+2023-11-05T11:19:58+00:00 CRITICAL Uncaught Error: Class "App\Classes\Router" not found in /var/www/html/wp-content/themes/my-theme/routes.php:8
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 8
+
+2023-11-05T11:19:58+00:00 CRITICAL Uncaught Error: Class "App\Classes\Router" not found in /var/www/html/wp-content/themes/my-theme/routes.php:8
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 8
+
+2023-11-05T11:20:14+00:00 CRITICAL Uncaught Error: Failed opening required 'https://legal-services.site/wp-content/themes/my-theme/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/my-theme/functions.php:6
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/functions.php on line 6
+
+2023-11-05T11:22:15+00:00 CRITICAL Uncaught Error: Class "App\Classes\Router" not found in /var/www/html/wp-content/themes/my-theme/routes.php:8
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 8
+
+2023-11-05T11:22:15+00:00 CRITICAL Uncaught Error: Class "App\Classes\Router" not found in /var/www/html/wp-content/themes/my-theme/routes.php:8
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 8
+
+2023-11-05T11:22:15+00:00 CRITICAL Uncaught Error: Class "App\Classes\Router" not found in /var/www/html/wp-content/themes/my-theme/routes.php:8
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 8
+
+2023-11-05T11:22:31+00:00 CRITICAL Uncaught Error: Class "App\Classes\Router" not found in /var/www/html/wp-content/themes/my-theme/routes.php:8
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 8
+
+2023-11-05T11:22:31+00:00 CRITICAL Uncaught Error: Class "App\Classes\Router" not found in /var/www/html/wp-content/themes/my-theme/routes.php:8
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 8
+
+2023-11-05T11:22:53+00:00 CRITICAL Uncaught Error: Class "App\Classes\Router" not found in /var/www/html/wp-content/themes/my-theme/routes.php:8
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 8
+
+2023-11-05T11:22:53+00:00 CRITICAL Uncaught Error: Class "App\Classes\Router" not found in /var/www/html/wp-content/themes/my-theme/routes.php:8
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 8
+
+2023-11-05T11:22:54+00:00 CRITICAL Uncaught Error: Class "App\Classes\Router" not found in /var/www/html/wp-content/themes/my-theme/routes.php:8
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 8
+
+2023-11-05T11:22:54+00:00 CRITICAL Uncaught Error: Class "App\Classes\Router" not found in /var/www/html/wp-content/themes/my-theme/routes.php:8
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 8
+
+2023-11-05T11:23:34+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in /var/www/html/wp-content/themes/my-theme/functions.php on line 22
+
+2023-11-05T11:23:44+00:00 CRITICAL Uncaught Error: Class "App\Classes\Router" not found in /var/www/html/wp-content/themes/my-theme/routes.php:8
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 8
+
+2023-11-05T11:23:44+00:00 CRITICAL Uncaught Error: Class "App\Classes\Router" not found in /var/www/html/wp-content/themes/my-theme/routes.php:8
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 8
+
+2023-11-05T11:23:44+00:00 CRITICAL Uncaught Error: Class "App\Classes\Router" not found in /var/www/html/wp-content/themes/my-theme/routes.php:8
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 8
+
+2023-11-05T11:23:45+00:00 CRITICAL Uncaught Error: Class "App\Classes\Router" not found in /var/www/html/wp-content/themes/my-theme/routes.php:8
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 8
+
+2023-11-05T11:23:56+00:00 CRITICAL Uncaught Error: Class "App\Classes\Router" not found in /var/www/html/wp-content/themes/my-theme/routes.php:8
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 8
+
+2023-11-05T11:23:56+00:00 CRITICAL Uncaught Error: Class "App\Classes\Router" not found in /var/www/html/wp-content/themes/my-theme/routes.php:8
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 8
+
+2023-11-05T11:23:56+00:00 CRITICAL Uncaught Error: Class "App\Classes\Router" not found in /var/www/html/wp-content/themes/my-theme/routes.php:8
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 8
+
+2023-11-05T11:24:41+00:00 CRITICAL Uncaught Error: Class "App\Classes\Router" not found in /var/www/html/wp-content/themes/my-theme/routes.php:8
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/themes/my-theme/routes.php on line 8
+
