@@ -37,7 +37,6 @@ class MailController{
             'status' => true,
             'result' => $result,
             'user' => $user,
-            'settings' => $mail_settings
         ];
     }
 

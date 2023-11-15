@@ -2074,3 +2074,6 @@
 2023/11/14 23:20:15 [error] 28#28: *9472 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 173.230.146.154, server: legal-services.site, request: "GET /favicon.ico HTTP/1.1", host: "legal-services.site"
 2023/11/15 02:21:06 [error] 26#26: *9702 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 167.248.133.37, server: legal-services.site, request: "GET /favicon.ico HTTP/1.1", host: "legal-services.site"
 2023/11/15 08:32:12 [error] 28#28: *10267 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 65.49.1.67, server: legal-services.site, request: "GET /favicon.ico HTTP/1.1", host: "31.129.110.198"
+2023/11/15 10:04:08 [error] 27#27: *11115 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 185.210.140.90, server: legal-services.site, request: "GET /favicon.ico HTTP/1.1", host: "legal-services.site", referrer: "https://legal-services.site/wp-json/wp/v2/settings"
+2023/11/15 10:09:11 [emerg] 38#38: invalid value "true" in "http2" directive, it must be "on" or "off" in /etc/nginx/nginx.conf:79
+2023/11/15 10:09:20 [notice] 39#39: signal process started
