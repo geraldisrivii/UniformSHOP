@@ -69,6 +69,7 @@ class UserController{
                 'user' => $userWP,
                 'message' => 'Succesfuly registered'
             ];
+            
         }
     
     

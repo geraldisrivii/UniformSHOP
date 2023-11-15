@@ -17,12 +17,12 @@ add_action('rest_api_init', function () {
 	Router::post('/users/signin', 'UserController@signin', 'HasCookieMiddleware');
 	Router::delete('/users/signout', 'UserController@signout', 'HasCookieMiddleware');
 	Router::get('/users/check_by_field', 'UserController@checkExistingUser');
-
+	
 	Router::get('/users/current', 'UserController@getCurrentUser', 'HasCookieMiddleware');
 
 	// Mail
-	Router::post('/mails', 'UserController@create', 'HasCookieMiddleware');
-	Router::post('/mails/check', 'UserController@checkCode', 'HasCookieMiddleware');
+	Router::post('/mails', 'MailController@create', 'HasCookieMiddleware');
+	Router::post('/mails/check', 'MailController@checkCode', 'HasCookieMiddleware');
 
 });
 
