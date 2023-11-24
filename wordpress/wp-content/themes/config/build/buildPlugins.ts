@@ -13,7 +13,8 @@ export function buildPlugins(options: BuildOptions): Configuration['plugins'] {
     let isDev = options.mode === 'development';
     return [
         new CleanWebpackPlugin({
-            cleanOnceBeforeBuildPatterns: ['**/*', '!composer.json', '!composer.lock', '!vendor/**/*', '!App/**/*', '!functions.php'],
+            cleanOnceBeforeBuildPatterns: ['**/*', '!composer.json', '!composer.lock'],
+            cleanAfterEveryBuildPatterns: ['!vendor/**/*', '!App/**/*', '!functions.php'],
         }),
         new HtmlWebpackPlugin({ template: options.paths.html, filename: 'index.php' }),
         new VueLoaderPlugin(),
