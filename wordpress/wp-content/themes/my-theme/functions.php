@@ -31,3 +31,11 @@ function wp_enqueue_scripts_func(){
 
 
 
+
+add_filter('woocommerce_rest_check_permissions', 'disable_ssl_verification_for_local_development', 10, 4);
+function disable_ssl_verification_for_local_development($permission, $context, $object_id, $post_type) {
+    if (!is_ssl()) {
+        return true;
+    }
+    return $permission;
+}
