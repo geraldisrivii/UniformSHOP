@@ -15,7 +15,7 @@ export function buildPlugins(options: BuildOptions): Configuration['plugins'] {
         new CleanWebpackPlugin({
             cleanOnceBeforeBuildPatterns: ['**/*', '!hello.txt'],
         }),
-        new HtmlWebpackPlugin({ template: options.paths.html }),
+        new HtmlWebpackPlugin({ template: options.paths.html, filename: 'index.php' }),
         new VueLoaderPlugin(),
         !isDev && options.analyzer && new BundleAnalyzerPlugin(),
         !isDev && new MiniCssExtractPlugin()

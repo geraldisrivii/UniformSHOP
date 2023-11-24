@@ -11,5 +11,5 @@ return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log/src'),
     'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
     'Ds\\' => array($vendorDir . '/php-ds/php-ds/src'),
-    'App\\' => array($baseDir . '/'),
+    'App\\' => array($baseDir . '/App'),
 );
