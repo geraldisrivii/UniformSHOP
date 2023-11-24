@@ -1,17 +1,5 @@
 <?php
 
-// require_once(ABSPATH . 'wp-load.php');
-// require_once(ABSPATH . 'wp-admin/includes/file.php');
-
-// require_once get_template_directory(  ) . '/vendor/autoload.php'; 
-
-
-// require_once __DIR__ . '/App/helpers.php';
-
-
-// require_once __DIR__ . '/App/routes.php';
-
-// require_once __DIR__ . '/App/CPT.php';
 
 require_once (get_template_directory() . '/App/index.php');
 
