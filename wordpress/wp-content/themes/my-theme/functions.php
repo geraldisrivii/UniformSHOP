@@ -6,12 +6,12 @@ require_once(ABSPATH . 'wp-admin/includes/file.php');
 require_once get_template_directory(  ) . '/vendor/autoload.php'; 
 
 
-require_once __DIR__ . '/helpers.php';
+require_once __DIR__ . '/App/helpers.php';
 
 
-require_once __DIR__ . '/routes.php';
+require_once __DIR__ . '/App/routes.php';
 
-require_once __DIR__ . '/CPT.php';
+require_once __DIR__ . '/App/CPT.php';
 
 add_action('wp_enqueue_scripts', 'wp_enqueue_scripts_func');
 add_action('init', 'init_func');

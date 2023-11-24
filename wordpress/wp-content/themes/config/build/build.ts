@@ -18,8 +18,8 @@ export function build(options: BuildOptions): webpack.Configuration {
         },
         output: {
             path: paths.output,
-            filename: '[name].[contenthash].js',
-            clean: true
+            filename: 'js/[name].[contenthash].js',
+            // clean: true
         },
         plugins: buildPlugins(options),
         module: {

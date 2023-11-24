@@ -17,6 +17,14 @@ export function buildLoaders(options: BuildOptions): ModuleOptions['rules'] {
         ],
     }
 
+    const cssLoader = {
+        test: /\.css$/i,
+        use: [
+            !isDev ? MiniCssExtractPlugin.loader : 'vue-style-loader',
+            "css-loader",
+        ],
+    }
+
     const tsLoader = {
         test: /\.tsx?$/,
         loader: 'ts-loader',
@@ -39,7 +47,8 @@ export function buildLoaders(options: BuildOptions): ModuleOptions['rules'] {
 
     return [
         scssLoader,
-        tsLoader,
+        cssLoader,
+        // tsLoader,
         vueLoader,
         imagesLoader,
     ]

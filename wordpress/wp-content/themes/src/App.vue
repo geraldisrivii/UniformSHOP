@@ -34,6 +34,7 @@ import LoginDialog from './components/LoginDialog.vue';
 import { mapMutations, mapState, mapGetters, mapActions } from 'vuex';
 import Basket from './components/Basket.vue';
 import Profile from './components/Profile.vue';
+import VueMultiselect from 'vue-multiselect'
 
 export default {
 
@@ -395,4 +396,4 @@ input {
 }
 
 </style>
-<style src="vue-multiselect/dist/vue-multiselect.css"></style>
+<style src="../node_modules/vue-multiselect/dist/vue-multiselect.min.css"></style>
