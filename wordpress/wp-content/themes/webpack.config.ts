@@ -15,14 +15,14 @@ interface EnvVariables {
 export default (env: EnvVariables) => {
 
     const Paths: BuildPaths = {
-        output: path.resolve(__dirname, 'public'),
+        output: path.resolve(__dirname, 'my-theme'),
         entry: path.resolve(__dirname, 'src', 'main.js'),
         html: path.resolve(__dirname, 'src', 'index.php'),
         src: path.resolve(__dirname, 'src'),
     }
     const config: webpack.Configuration = build({
         port: env.port ?? 5000,
-        mode:  env.mode ?? 'development',
+        mode: env.mode ?? 'development',
         paths: Paths,
         analyzer: env.analyzer ?? false
     });
