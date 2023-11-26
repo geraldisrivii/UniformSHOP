@@ -7,7 +7,7 @@ import { buildResolvers } from "./buildResolvers";
 import { BuildOptions } from "./types/types";
 
 export function build(options: BuildOptions): webpack.Configuration {
-    const {mode, port, paths} = options;
+    const { mode, port, paths } = options;
 
     let isDev = mode === 'development';
 

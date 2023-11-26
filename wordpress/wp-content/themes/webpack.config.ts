@@ -1,5 +1,5 @@
 
-import webpack from 'webpack';
+import webpack, { DefinePlugin } from 'webpack';
 import { build } from './config/build/build';
 import { BuildMode, BuildPaths } from './config/build/types/types';
 import path from 'path';
@@ -26,6 +26,18 @@ export default (env: EnvVariables) => {
         paths: Paths,
         analyzer: env.analyzer ?? false
     });
+
+    // const manifest: Object = require('./my-theme/manifest.json');
+
+    // const cssFiles = Object.values(manifest).filter((file: string) => file.endsWith('.css'));
+
+    // console.log(cssFiles)
+
+    // new DefinePlugin({
+    //     __CSS_FILES__: JSON.stringify(cssFiles),
+    // })
+
+
 
     return config;
 };
