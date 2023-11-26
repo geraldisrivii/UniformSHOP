@@ -7,7 +7,7 @@
     <script src="https://www.cbr-xml-daily.ru/money.js"></script>
     <script src="//code.jivo.ru/widget/yagzagWCNh" async></script>
     <?= wp_head(  ) ?>
-</head>
+<script defer src="assets/js/main.js"></script></head>
 <body>
     <div id="app"></div>
     <?= wp_footer(  ) ?>

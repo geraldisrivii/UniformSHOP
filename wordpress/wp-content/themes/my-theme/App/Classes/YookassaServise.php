@@ -4,26 +4,27 @@ namespace App\Classes;
 
 use YooKassa\Client;
 
-class YookassaServise{
+class YookassaServise
+{
 
-   private static YookassaServise $instance;
+    private static YookassaServise $instance;
 
-   private $client;
+    private $client;
 
-    public function __construct(){
-        if(isset($instance)){
-            return $instance;
+    public function __construct()
+    {
+        if (isset(YookassaServise::$instance)) {
+            return YookassaServise::$instance;
         }
-
-
 
         // var_dump(SHOP_ID);
         $client = new Client();
-	    $client->setAuth(SHOP_ID, SHOP_KEY);
+        $client->setAuth(SHOP_ID, SHOP_KEY);
         $this->client = $client;
     }
 
-    public function create_payment($amount, $description = 'Заказ №1'){
+    public function create_payment($amount, $description = 'Заказ №1')
+    {
         $payment = $this->client->createPayment(
             array(
                 'amount' => array(
@@ -39,11 +40,21 @@ class YookassaServise{
             ),
             uniqid('', true)
         );
-        
+
         return $payment;
     }
 
-    public function getInfo(string $id){
+    public function getInfo(string $id)
+    {
         return $this->client->getPaymentInfo($id);
+    }
+
+    public function addWebhook(string $event)
+    {
+        // $this->client->setAuthToken('Basic YWxleGFuZGVyLmZyZWVsYW5jZXI6b1NBOSB5TFRWIHlHYWIgTGprTCA3aDBpIGxoTnE=');
+        return $this->client->addWebhook([
+            "event" => $event,
+            "url" => "http://localhost/wp-json/wp/v2/payments/webhook",
+        ]);
     }
 }

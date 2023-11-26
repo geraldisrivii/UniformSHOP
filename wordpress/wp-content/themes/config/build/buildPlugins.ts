@@ -13,12 +13,14 @@ export function buildPlugins(options: BuildOptions): Configuration['plugins'] {
     let isDev = options.mode === 'development';
     return [
         new CleanWebpackPlugin({
-            cleanOnceBeforeBuildPatterns: ['**/*', '!composer.json', '!composer.lock'],
-            cleanAfterEveryBuildPatterns: ['!vendor/**', '!App/**', '!functions.php'],
+            cleanOnceBeforeBuildPatterns: ['**/*', '!composer.json', '!composer.lock', '!vendor/**', '!App/**', '!functions.php'],
+            // cleanAfterEveryBuildPatterns: [],
         }),
         new HtmlWebpackPlugin({ template: options.paths.html, filename: 'index.php' }),
         new VueLoaderPlugin(),
         !isDev && options.analyzer && new BundleAnalyzerPlugin(),
-        !isDev && new MiniCssExtractPlugin()
+        !isDev && new MiniCssExtractPlugin({
+            filename: 'style.css',
+        })
     ]
 }
