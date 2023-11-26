@@ -38,7 +38,8 @@
     "webpack": "^5.88.2",
     "webpack-bundle-analyzer": "^4.9.1",
     "webpack-cli": "^5.1.4",
-    "webpack-env": "^0.8.0"
+    "webpack-env": "^0.8.0",
+    "webpack-manifest-plugin": "^5.0.0"
   },
   "dependencies": {
     "@types/webpack-env": "^1.18.4",
