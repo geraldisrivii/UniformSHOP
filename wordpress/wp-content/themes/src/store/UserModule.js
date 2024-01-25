@@ -11,7 +11,6 @@ export const UserModule = {
     mutations: {
         setUser(state, user){
             state.user = user;
-            console.log(user);
         },
         setIsProfileShow(state, isProfileShow){
             state.isProfileShow = isProfileShow;

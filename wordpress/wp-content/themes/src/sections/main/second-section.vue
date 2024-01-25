@@ -28,7 +28,6 @@ export default {
     },
     async mounted(){
         let diginities = (await WP.get('diginities')).data
-        console.log(diginities)
         
         this.diginities = diginities;
     }

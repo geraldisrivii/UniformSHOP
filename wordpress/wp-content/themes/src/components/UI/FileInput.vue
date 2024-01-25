@@ -42,7 +42,6 @@ export default {
             for (const file of files) {
                 file.src = URL.createObjectURL(file);
             }
-            console.log(files);
             this.$emit('update:images', files);
         },
         inputOpen() {

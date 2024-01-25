@@ -66,8 +66,6 @@ export default {
 
             this.product = response.data
 
-            console.log(response.data)
-
             this.isProductLoaded = true
 
         }

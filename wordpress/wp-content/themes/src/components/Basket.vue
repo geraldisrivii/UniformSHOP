@@ -59,7 +59,7 @@ export default {
     computed: {
         totalPrice() {
             let prices = this.$store.state.basket.elements.map(item => item.quantity > 0 ? item.product.price * item.quantity : 0)
-            console.log(this.$store.state.basket.elements)
+            
             var sum = prices.reduce(function (a, b) {
                 a = Number(a)
                 b = Number(b)
@@ -91,7 +91,6 @@ export default {
                 withCredentials: true
             }).then(response => response.data)
 
-            console.log(response)
 
             window.location.href = response.yookassa_object.confirmation.confirmation_url
         }
@@ -103,7 +102,6 @@ export default {
 
         let customer = await WOO.get('customers/' + this.$store.state.user.user.ID).then(response => response.data)
 
-        console.log(customer)
 
         this.isCustomerLoaded = true
 

@@ -92,7 +92,6 @@ export default {
             for (const word of this.inputValue.trim().split(' ')) {
                 regexps.push(new RegExp(word, 'g'));
             }
-            console.log(regexps)
             let filteredOutputSearchOptions = this.outputOptions.filter(option => {
                 for (const regexp of regexps) {
                     if (option.name.match(regexp) != null) {
@@ -106,10 +105,8 @@ export default {
                 for (const regexp of regexps) {
                     sum += (second.name.match(regexp) ? second.name.match(regexp).length : 0) - (first.name.match(regexp) ? first.name.match(regexp).length : 0)
                 }
-                console.log(sum)
                 return sum;
             })
-            console.log(sortedOutputSearchOptions)
             return sortedOutputSearchOptions
         },
         isOptionsShowComputed() {
@@ -124,7 +121,6 @@ export default {
     },
     methods: {
         setParentOption(option, isSkipChildrenCheck = false) {
-            console.log(isSkipChildrenCheck)
             if (option[this.childrenLabel] == undefined) {
                 this.parentOption = null;
                 this.isOptionsShow = false;

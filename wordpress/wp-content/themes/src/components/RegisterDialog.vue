@@ -220,7 +220,6 @@ export default {
                 email: this.email,
             };
             let validFields = await validator.run(fields);
-            console.log(validFields);
             this.validFields = validFields;
             if (validator.isAllFieldsValid()) {
                 return this.isValidAllData = true;
@@ -230,7 +229,6 @@ export default {
             }
             let isntValidFields = validator.getIsntValidFields();
             this.isntValidFields = isntValidFields;
-            console.log(this.isntValidFields);
         },
         async registerUser() {
             let responseRegister = await WP.post("/users/signup", {
@@ -240,13 +238,11 @@ export default {
             }, {
                 withCredentials: true
             });
-            console.log(responseRegister);
             this.$store.commit("user/setUser", responseRegister.data.user ? responseRegister.data.user : this.$store.state.user.user);
             this.isPreloaderEnabled = true;
             let response = await WP.post("/mails", {}, {
                 withCredentials: true
             }).then(response => response.data);
-            console.log(response);
             this.isSentCode = true;
             this.isPreloaderEnabled = false;
 
@@ -258,7 +254,6 @@ export default {
             }, {
                 withCredentials: true
             }).then(response => response.data);
-            console.log(response);
             this.$emit("update:isDialogShow", false);
         }
     },

@@ -65,7 +65,6 @@ export default {
 
         this.maxQuanity = currentElement.stock_quantity;
 
-        console.log(currentElement)
 
         this.isDataLoaded = true
 

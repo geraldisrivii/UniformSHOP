@@ -112,7 +112,6 @@ export default {
     watch: {
         basketItems: {
             handler() {
-                console.log('edit')
                 localStorage.setItem('basketItems', JSON.stringify(this.basketItems))
             },
             deep: true

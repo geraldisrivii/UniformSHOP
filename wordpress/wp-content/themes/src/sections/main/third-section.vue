@@ -87,8 +87,6 @@ export default {
     async mounted() {
         let products = (await WOO.get('products')).data;
 
-        console.log(products);
-
         this.products = products
 
         this.isFetchedProducts = true

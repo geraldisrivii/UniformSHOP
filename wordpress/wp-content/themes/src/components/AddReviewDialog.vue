@@ -75,8 +75,6 @@ export default {
                 children[i].src = this.$store.state.app.settings_light_start
             }
             this.index = index + 1;
-            console.log('index: ' + this.index)
-            console.log(children.length)
             for (let i = index + 1; i < children.length; i++) {
                 children[i].src = this.$store.state.app.settings_dark_start
             }

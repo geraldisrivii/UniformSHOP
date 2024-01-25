@@ -25,7 +25,6 @@ export default {
     },
     async beforeCreate(){
         let pageData = (await WP.get('pages/158')).data;
-        // console.log(pageData)
         this.$store.state.page = pageData.cfs;
 
         if(this.isDataLoaded == false){

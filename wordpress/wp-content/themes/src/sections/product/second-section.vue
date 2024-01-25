@@ -96,9 +96,6 @@ export default {
                     page: this.reviewsPage
                 }
             })).data;
-
-            console.log(reviews)
-
             this.productReviews.push(...reviews)
         }
     },

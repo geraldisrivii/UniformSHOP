@@ -46,12 +46,10 @@ export default (await import('vue')).defineComponent({
         let response = await WP.get('test', {
             withCredentials: true
         });
-        console.log(response.data);
 
 
         let responseIsAuth = await WP.get('auth_route', {
             withCredentials: true
         });
-        console.log(responseIsAuth.data);
     }
 });

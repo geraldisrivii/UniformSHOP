@@ -84,7 +84,6 @@ export default {
 
             let products = response.data;
 
-            console.log(products)
 
             this.products = products;
 

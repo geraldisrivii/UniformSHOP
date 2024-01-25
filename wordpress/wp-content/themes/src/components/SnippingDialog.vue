@@ -77,8 +77,6 @@ export default {
             let result = WOO.put('customers/' + this.$store.state.user.user.ID, data).then(response => response.data)
 
             this.$emit('pay')
-
-            console.log(result)
         }
     },
     components: { 'vue-select': vueselect, MySelect }
