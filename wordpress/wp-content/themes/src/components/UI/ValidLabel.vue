@@ -20,11 +20,11 @@ export default {
             required: true
         },
         isntValidText: {
-            type: String,
+            type: [String, Boolean],
             required: true,
         },
         isValidText: {
-            type: String,
+            type: [String, Boolean],
             required: true,
         }
     },

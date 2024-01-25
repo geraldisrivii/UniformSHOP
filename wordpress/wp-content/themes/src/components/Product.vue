@@ -38,7 +38,7 @@ export default {
             default: 250,
         },
         sale_price: {
-            type: [Number, null],
+            type: [Number, String,  null],
             required: true
         }
     }

@@ -19,8 +19,8 @@ services:
       - ./nginx/logs/:/var/log/nginx
       - ./etc/letsencrypt:/etc/nginx/ssl
     ports:
-      - 80:80
-      - 443:443
+      - 81:80
+      # - 443:443
     depends_on:
       - wordpress
   # certbot:
@@ -43,7 +43,7 @@ services:
   phpmyadmin:
     image: phpmyadmin:latest
     ports:
-      - "8081:80"
+      - "8082:80"
     environment:
       PMA_HOST: wc_db
     container_name: wc_admin

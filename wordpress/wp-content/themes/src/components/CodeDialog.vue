@@ -5,7 +5,7 @@
         <form class="code-dialog__form">
             <input :value="code" @input="(event) => $emit('update:code', event.target.value)" type="text" name="code"
                 placeholder="Код потверждения" class="code-dialog__input input-text">
-            <valid-label class="register-dialog__label" :isValidText="'Отлично!'" :isntValidText="isntValidCode"
+            <valid-label class="register-dialog__label" :isValidText="'Отлично!'" :isntValidText="(typeof isntValidCode == 'string') ? isntValidCode : ''"
                 :isntValid="Boolean(isntValidCode)" :isValid="Boolean(!isntValidCode)" />
             <!-- <button type="submit" class="button button_around">Отправить</button> -->
         </form>

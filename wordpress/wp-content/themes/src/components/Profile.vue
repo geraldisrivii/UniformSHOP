@@ -4,6 +4,12 @@
             :isRightDialogShow="isProfileShow">
             <div class="profile">
                 <div v-if="currentVisibleMenu.value == 'orders'" class="profile-orders">
+                    <QuestionBox v-if="orders.length == 0"
+                    :title="'Заказы отсутствуют'"
+                    :text="'Можете сделать заказ через корзину.'"
+                    :buttonText="'В корзину'"
+                    @action="$emit('update:isBasketShow', true), $emit('update:isProfileShow', false)"
+                    />
                     <Order v-for="order in orders" :key="order.id" :status="order.status"
                         :date="order.date_created_gmt.slice(0, order.date_created_gmt.indexOf('T'))"
                         :items="order.line_items" :total="order.total" />
@@ -27,6 +33,7 @@ import WP from '@/axiosWP'
 import Order from '@/components/Order.vue'
 import { mapGetters } from 'vuex'
 import SnippingDialog from './SnippingDialog.vue'
+import QuestionBox from './QuestionBox.vue'
 export default {
     props: {
         isProfileShow: {
@@ -65,9 +72,6 @@ export default {
     methods: {
         async getOrders() {
             let orders = await WOO.get('orders?customer=' + this.$store.state.user.user.ID).then(response => response.data)
-
-            console.log(orders)
-
             this.orders = orders
 
             this.isDataLoaded = true
@@ -85,7 +89,7 @@ export default {
 
         }
     },
-    components: { Order, SnippingDialog },
+    components: { Order, SnippingDialog, QuestionBox },
 }
 </script>
 

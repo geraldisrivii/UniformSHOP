@@ -27,17 +27,6 @@ export default (env: EnvVariables) => {
         analyzer: env.analyzer ?? false
     });
 
-    // const manifest: Object = require('./my-theme/manifest.json');
-
-    // const cssFiles = Object.values(manifest).filter((file: string) => file.endsWith('.css'));
-
-    // console.log(cssFiles)
-
-    // new DefinePlugin({
-    //     __CSS_FILES__: JSON.stringify(cssFiles),
-    // })
-
-
 
     return config;
 };

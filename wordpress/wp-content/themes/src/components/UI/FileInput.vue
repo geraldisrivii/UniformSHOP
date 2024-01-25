@@ -28,7 +28,7 @@ export default {
             default: "Добавить файл"
         },
         images: {
-            type: FileList,
+            type: [FileList, Array],
             required: true
         }
     },

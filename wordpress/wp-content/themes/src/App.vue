@@ -253,6 +253,14 @@ button {
     font-family: Montserrat;
     cursor: pointer;
     background-color: transparent;
+
+    &:disabled{
+        cursor: not-allowed;
+
+        img{
+            opacity: 0.5;
+        }
+    }
 }
 
 ul {
