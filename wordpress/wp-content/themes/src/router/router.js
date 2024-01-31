@@ -34,4 +34,16 @@ const router = createRouter({
     }
 })
 
+router.afterEach((to, from) => {
+
+    preloaderOpen()
+
+    setTimeout(() => {
+        preloaderClose()
+    }, 1000)
+
+    window.scrollTo(0, 0)
+})
+
+
 export default router

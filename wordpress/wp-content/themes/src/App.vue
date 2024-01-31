@@ -18,10 +18,10 @@
     <router-view :isAppLoaded="isAppLoaded" :isDataLoaded="isDataLoaded"
         @update:isDataLoaded="updateIsDataLoaded"></router-view>
     <MyFooter v-if="isAllDataLoaded" />
-    
+<!--     
     <div ref="preloader" class="preloader">
 
-    </div>
+    </div> -->
 </template>
 <script>
 import MyHeader from './includes/MyHeader.vue'
@@ -74,11 +74,7 @@ export default {
             this.isDataLoaded = newValue
         },
         disablePreloader() {
-            this.$refs.preloader.style.opacity = 0;
-
-            setTimeout(() => {
-                this.$refs.preloader.style.display = 'none'
-            }, 1000)
+            preloaderClose()
         },
 
         ...mapMutations({
@@ -213,16 +209,6 @@ export default {
             transform: rotate(-45deg);
         }
     }
-}
-
-.preloader {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: #002153;
-    transition: all 0.6s;
 }
 
 * {

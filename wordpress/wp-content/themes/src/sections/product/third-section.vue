@@ -91,15 +91,11 @@ export default {
         gap: 60px;
     }
     &__button {}
-    &__header {
-        
-        // width: max-content;
-    }
 }
 
 .third-section-alike-products {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(285px, 300px));
     gap: 20px;
 }
 </style>
