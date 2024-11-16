@@ -14,5 +14,3 @@
 - Php-fpm.
 - MySQL.
 - PhpMyAdmin
-
-Сайт размещен на хостинге timeweb с минимальным тарифом по процессору - https://uniform.kisulkens.ru/
